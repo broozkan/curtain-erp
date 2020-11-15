@@ -1,0 +1,110 @@
+.btnInsideInput{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0px;
+}
+.display-flex{
+  display: flex;
+}
+.pagination {
+  display: block;
+}
+.inline-flex{
+  display: inline-flex;
+}
+.visibility-hidden{
+  visibility: hidden;
+}
+.height80px{
+  height: 80px!important;
+}
+.inline-block{
+  display: inline-block;
+}
+.pointer-events-none{
+  pointer-events: none;
+}
+.width50{
+  width: 50%;
+}
+.width20{
+  width: 20%;
+}
+.tbl-sale-items tbody td{
+  padding: 2px;
+}
+.brillant-measurements{
+  display: flex;
+}
+.stor-measurements{
+  display: flex;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #1a63c5;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.custom-pagination {
+  display: inline-block;
+}
+
+.custom-pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.custom-pagination a.active {
+  background-color: #1a63c5;
+  color: white;
+}
+
+.custom-pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+.loading{
+  background:rgba(0, 0, 0, 0.47843137254901963);position:absolute;height:100%;width:100%;
+}
+.table-responsive{
+  position: relative;
+}
+.table-spinner{
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+.header-profile{
+  width: 100px;
+  height: 100px;
+}
+.list-group{
+  position: absolute!important;
+  width: 90%;
+  z-index: 2;
+}
+.list-group-item{
+  background: lightgrey;
+}
+.btnInputResult{
+  padding: 3px 7px;
+}
+
+.spanInputSearchLoading{
+  position: absolute;
+  top: 38px;
+  right: 9px;
+}
+.form-group{
+  position: relative;
+}

@@ -1,0 +1,11 @@
+27.12.2019 -- 16:31  ->  tbl_workshops has been created ----------------------------------------------------------------------------------------------------------------------------- CHECK
+27.12.2019 -- 16:41  ->  added sale_workshop_id,sale_workshop_verify_employee_id to tbl_sales --------------------------------------------------------------------------------------- CHECK
+04.01.2020 -- 23:50  ->  changed column sale_discount_id to sale_discount_amount on tbl_sales --------------------------------------------------------------------------------------- CHECK
+20.01.2020 -- 15:09  ->  Deleted column 'sale_category_id' from tbl_sales ----------------------------------------------------------------------------------------------------------- CHECK
+20.01.2020 -- 18:19  ->  added column sale_state to tbl_sales ----------------------------------------------------------------------------------------------------------------------- CHECK
+20.01.2020 -- 18:19  ->  altered column 'sale_information_stor_code' to 'sale_information_stor_codes' ON 'tbl_sale_informations' ---------------------------------------------------- CHECK
+27.01.2020 -- 15:56  -> created table 'tbl_software_settings' ----------------------------------------------------------------------------------------------------------------------- CHECK
+13.02.2020 -- 13:52  -> added column 'sale_workshop_verify_date' TO 'tbl_sales' ----------------------------------------------------------------------------------------------------- CHECK
+ALTER TABLE `tbl_sale_invoice_products` ADD `sale_invoice_product_product_unit_selling_price` FLOAT(10,2) NOT NULL AFTER `sale_invoice_product_product_unit_purchase_price`;  ------- CHECK
+ALTER TABLE `tbl_sale_invoice_products` CHANGE `sale_invoice_product_product_unit_selling_price` `sale_invoice_product_product_unit_sale_price` FLOAT(10,2) NOT NULL; --------------- CHECK
+ALTER TABLE `tbl_sales` ADD `sale_factory_state` VARCHAR(150) NOT NULL DEFAULT 'Beklemede' AFTER `sale_state`;

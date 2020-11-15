@@ -1,0 +1,36 @@
+.form-sale-group label{
+  font-weight: bold;
+}
+
+.form-sale-group{
+  margin-bottom: 0px;
+}
+.tbl-sale-items-container{
+  height: 300px;
+}
+.spanEditRoomName{
+  font-size: 13px;
+  cursor: pointer;
+}
+.room-name{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.txtSaleItemRoomName{
+  height: calc(1.5em + 1rem + 2px);
+  font-size: 1.09375rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 0px;
+}
+
+.room-seperator{
+  border : 1px solid;
+  border-color:black;
+}
+.ol-measurements{
+  list-style: none;
+}
